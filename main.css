@@ -1,0 +1,35 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: gotham rounded;
+}
+:root{
+    --hue-neutral:200;
+    --hue-wrong:0;
+    --hue-correct:100
+}
+body{
+--hue:var(--hue-neutral);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(56, 56, 97)
+}
+
+.container{
+    width: 900px;
+    max-width: 90%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 10px 5px 5px rgb(47, 136, 109);
+}
+
+.hide{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
